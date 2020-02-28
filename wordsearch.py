@@ -1,6 +1,6 @@
 import json
 from difflib import get_close_matches
-data=json.load("076 data.json")
+data=json.load("data.json")
 
 def translate(w):
     w=w.lower()
